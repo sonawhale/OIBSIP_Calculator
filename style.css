@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator{
+    border: 5px solid #fe29d0;
+    background-color: #eca2cd;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px rgba(1, 1, 1, 0.5);
+
+}
+
+input{
+    width: 320px;
+    border: 2px solid #717377;
+    border-radius: 16px;
+    width: 370px;
+    height: 175px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input:hover{
+    background-color: rgb(30, 31, 31);
+    }
+    
+input::placeholder{
+    color:#986acd;
+    height: 600px;
+    
+    width: 320px;    
+}
+
+button{
+    border: none;
+    width: 75px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 70px;
+    background: transparent;
+    color: #986acd;
+    font-size: 20px;
+    box-shadow: -2px -2px 18px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #021019;
+}
+
+.operator{
+    color: #986acd;
+    background-color:#192033;
+    font-size: 20px;
+    
+}
+
+button:hover{
+    background-color: #763a67;
+}
